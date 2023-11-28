@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Lover's Paradise</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #ff9900;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: rotateText 5s infinite linear;
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #333333;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Cheese Lover's Paradise</h1>
+    <marquee behavior="scroll" direction="left">
+        <p>Cheese, oh glorious cheese! It's like a symphony of flavors dancing on your taste buds. Whether it's the creamy goodness of brie, the tangy sharpness of cheddar, or the melt-in-your-mouth delight of mozzarella, cheese never fails to bring joy.</p>
+    </marquee>
+    <marquee behavior="scroll" direction="right">
+        <p>Imagine a world without cheese. It would be like a sky without stars, a beach without sand, or a code without syntax highlighting. Cheese adds that extra oomph to any dish, turning the ordinary into the extraordinary.</p>
+    </marquee>
+    <marquee behavior="scroll" direction="left">
+        <p>So go ahead, embrace the cheesiness! Let your taste buds embark on a journey of cheesy delights. Remember, life is too short for blandness. Add a sprinkle of parmesan, a dollop of cream cheese, or a slice of gouda, and let the cheese magic unfold.</p>
+    </marquee>
+</body>
+</html>
